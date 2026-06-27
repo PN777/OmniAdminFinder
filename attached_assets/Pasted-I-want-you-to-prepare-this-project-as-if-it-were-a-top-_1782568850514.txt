@@ -1,0 +1,200 @@
+I want you to prepare this project as if it were a top-tier open-source repository.
+
+**IMPORTANT**
+
+* Do NOT modify, rewrite, refactor, optimize, or delete any source code.
+* Preserve every existing source file exactly as it is.
+* Your job is only to package, organize, document, and publish the project professionally.
+
+## Primary Goal
+
+Create a complete production-quality GitHub repository and push **every project file** to my GitHub repository.
+
+Nothing should be skipped.
+
+---
+
+# Repository Name
+
+**OmniAdminFinder**
+
+## Repository Description
+
+A high-performance asynchronous admin interface discovery engine built for authorized security research. It combines intelligent path enumeration, concurrent HTTP scanning, response fingerprinting, technology detection, and confidence-based result ranking to efficiently discover administrative interfaces.
+
+---
+
+# Repository Requirements
+
+Include **every existing project file**.
+
+Do not omit anything.
+
+Generate or improve:
+
+* README.md
+* LICENSE (MIT)
+* CONTRIBUTING.md
+* SECURITY.md
+* CODE_OF_CONDUCT.md
+* CHANGELOG.md
+* ROADMAP.md
+* .gitignore
+* requirements.txt (only if missing)
+* pyproject.toml (if appropriate)
+* setup.py (if appropriate)
+
+Create:
+
+```
+.github/
+ ├── ISSUE_TEMPLATE/
+ │    ├── bug_report.yml
+ │    ├── feature_request.yml
+ │    └── config.yml
+ ├── workflows/
+ │    └── ci.yml
+ └── pull_request_template.md
+```
+
+---
+
+# README Requirements
+
+Create a premium README similar to high-quality open-source projects.
+
+Include:
+
+* Hero banner
+* Professional badges
+* Project description
+* Why this project exists
+* Features
+* Architecture overview
+* Installation guide
+* Quick Start
+* Usage
+* CLI arguments
+* Examples
+* Screenshots section (placeholders)
+* Folder structure
+* Output examples
+* Performance
+* Requirements
+* FAQ
+* Troubleshooting
+* Roadmap
+* Contributing
+* Security
+* License
+* Credits
+* Disclaimer
+
+Everything should be thoroughly documented.
+
+---
+
+# Documentation
+
+Explain every important module.
+
+Explain:
+
+* How it works
+* Internal architecture
+* Discovery pipeline
+* Scanner engine
+* Response fingerprinting
+* Technology detection
+* Reporting system
+* Configuration
+
+Use diagrams where appropriate.
+
+---
+
+# Installation
+
+Provide complete installation instructions for:
+
+* Linux
+* macOS
+* Windows
+
+Include every command.
+
+Example:
+
+* Clone repository
+* Create virtual environment
+* Activate environment
+* Install dependencies
+* Verify installation
+* Run first scan
+
+---
+
+# Usage
+
+Provide beginner to advanced examples.
+
+Explain every command-line argument.
+
+Include examples for:
+
+* Default scan
+* Custom wordlists
+* Output files
+* Thread count
+* Timeout
+* Rate limiting
+* Verbose mode
+* Extension scanning
+* Proxy usage
+
+---
+
+# Examples
+
+Provide realistic terminal examples.
+
+Show expected outputs.
+
+Explain every output field.
+
+---
+
+# GitHub
+
+Configure the repository like a professional open-source project.
+
+Include:
+
+* Issue templates
+* Pull request template
+* GitHub Actions CI workflow
+* Security policy
+* Contribution guide
+* Community standards
+
+---
+
+# GitHub Push
+
+After generating all files:
+
+1. Stage every file.
+2. Commit everything with a professional commit message.
+3. Push **all files** to the GitHub repository.
+4. Verify the push completed successfully.
+5. Ensure no files were skipped.
+
+---
+
+# Quality
+
+The repository should look comparable to projects from major open-source organizations.
+
+The documentation should be detailed enough that a complete beginner can install, understand, and use the tool without additional guidance.
+
+The final repository should be production-ready, professionally organized, and ready for public release while preserving all existing source code exactly as provided.

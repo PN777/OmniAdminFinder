@@ -1,3 +1,9 @@
+Here is the exact content of the README.md file as a prompt, without any modifications:
+
+---
+
+[file name]: README.md
+[file content begin]
 <div align="center">
 
 # OmniAdminFinder
@@ -531,3 +537,4 @@ Distributed under the MIT License. See [LICENSE](./LICENSE).
 This tool is provided for **authorized** security assessments, defensive operations, and education.  
 Unauthorized scanning may violate laws, regulations, and terms of service.  
 You are solely responsible for compliance in your jurisdiction and for obtaining explicit permission before use.
+[file content end]

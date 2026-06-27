@@ -1,0 +1,5 @@
+aiohttp>=3.9.0
+aiohttp
+pytest
+pytest-asyncio
+ruff

@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest a new feature or enhancement.
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement to OmniAdminFinder.
+        Please check the [Roadmap](../../blob/main/ROADMAP.md) first —
+        your idea may already be planned.
+
+  - type: checkboxes
+    id: pre-flight
+    attributes:
+      label: Pre-flight checklist
+      options:
+        - label: I have checked the Roadmap and existing issues and this is not already tracked.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem does this feature solve? What is currently painful or missing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe your idea clearly. Code snippets or CLI examples are welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Are there other approaches you considered? Why did you prefer your proposal?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links, references, screenshots, or anything else that might help.

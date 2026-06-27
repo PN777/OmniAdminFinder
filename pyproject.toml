@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "omniadminfinder"
+version = "1.0.0"
+description = "Asynchronous admin interface discovery engine for authorized security research"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "PN777", url = "https://github.com/PN777" }]
+requires-python = ">=3.10"
+keywords = ["security", "admin", "discovery", "async", "pentesting"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = ["aiohttp>=3.9.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.4", "pytest-asyncio>=0.23"]
+
+[project.scripts]
+omniadminfinder = "omnifinder.cli:main"
+adminfinder = "omnifinder.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/PN777/OmniAdminFinder"
+"Bug Tracker" = "https://github.com/PN777/OmniAdminFinder/issues"
+Changelog = "https://github.com/PN777/OmniAdminFinder/blob/main/CHANGELOG.md"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
