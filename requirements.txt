@@ -1,5 +1,7 @@
 aiohttp>=3.9.0
-aiohttp
-pytest
-pytest-asyncio
-ruff
+aiofiles>=23.0.0
+tqdm>=4.0.0
+colorama>=0.4.6
+aiofiles
+colorama
+tqdm
