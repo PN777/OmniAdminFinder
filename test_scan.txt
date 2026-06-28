@@ -1,0 +1,67 @@
+================================================================================
+OMNIADMINFINDER – DISCOVERY REPORT
+Target: http://127.0.0.1:18080
+Timestamp: 2026-06-27 14:45:55
+Total paths probed: 3243
+Likely admin pages: 7
+================================================================================
+
+[36m1. http://127.0.0.1:18080/administrator[39m
+   Status: [32m200[39m  |  Score: [32m100%[39m
+   Title: Joomla Administration Login
+   Tech: PHP, Joomla
+   Forms: 1 detected
+   Response time: 2.9ms, Length: 199 bytes
+   Hash: eb884d3ade6a5ac5...
+   Preview: <html><title>Joomla Administration Login</title><body>Joomla administrator panel<form action="/administrator/index.php" method="post"><input name="username"><input name="passwd"></form></body></html>...
+
+[36m2. http://127.0.0.1:18080/admin[39m
+   Status: [32m200[39m  |  Score: [32m100%[39m
+   Title: Admin Login - Dashboard
+   Tech: PHP
+   Forms: 1 detected
+   Response time: 1.9ms, Length: 206 bytes
+   Hash: d02073123be41429...
+   Preview: <html><title>Admin Login - Dashboard</title><body><form action="/admin/login" method="post"><input name="username"><input name="password"><input name="csrf_token"><button>Login</button></form></body><...
+
+[36m3. http://127.0.0.1:18080/login[39m
+   Status: [32m200[39m  |  Score: [32m100%[39m
+   Title: Login
+   Tech: PHP
+   Forms: 1 detected
+   Response time: 3.4ms, Length: 132 bytes
+   Hash: 7849311e61a111d4...
+   Preview: <html><title>Login</title><body><form action="/login" method="post"><input name="email"><input name="password"></form></body></html>...
+
+[36m4. http://127.0.0.1:18080/wp-admin[39m
+   Status: [32m200[39m  |  Score: [32m97%[39m
+   Title: WordPress › Login
+   Tech: PHP, WordPress
+   Redirects to: http://localhost:18080/wp-login.php
+   Response time: 11.5ms, Length: 123 bytes
+   Hash: c05daeae17e10423...
+   Preview: <html><title>WordPress › Login</title><body><form method="post"><input name="log"><input name="pwd"></form></body></html>...
+
+[36m5. http://127.0.0.1:18080/phpmyadmin[39m
+   Status: [32m200[39m  |  Score: [32m90%[39m
+   Title: phpMyAdmin
+   Tech: PHP, DatabaseAdmin
+   Response time: 2.3ms, Length: 143 bytes
+   Hash: 1f203844dd38632e...
+   Preview: <html><title>phpMyAdmin</title><body>phpMyAdmin database admin<form><input name="pma_username"><input name="pma_password"></form></body></html>...
+
+[36m6. http://127.0.0.1:18080/wp-login.php[39m
+   Status: [32m200[39m  |  Score: [32m82%[39m
+   Title: WordPress › Login
+   Tech: PHP, WordPress
+   Response time: 2.6ms, Length: 123 bytes
+   Hash: c05daeae17e10423...
+   Preview: <html><title>WordPress › Login</title><body><form method="post"><input name="log"><input name="pwd"></form></body></html>...
+
+[36m7. http://127.0.0.1:18080/dashboard[39m
+   Status: [33m403[39m  |  Score: [32m71%[39m
+   Title: 403 Forbidden - Admin Area
+   Tech: PHP
+   Response time: 3.2ms, Length: 100 bytes
+   Hash: 98a043cc1148411e...
+   Preview: <html><title>403 Forbidden - Admin Area</title><body>Unauthorized - authenticate first</body></html>...
